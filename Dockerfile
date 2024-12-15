@@ -10,7 +10,7 @@ RUN npx prisma generate
 
 ENV SERVER_PORT=80
 
-ENV DATABASE_URL="postgresql://nestrest2admin:mysecretpassword@localhost:5432/nestrest2test?schema=public"
+ENV DATABASE_URL="postgresql://nestrest2admin:mysecretpassword@nestresrest2admin.c1i6mesau2nh.ap-south-1.rds.amazonaws.com:5432/nestrest2test?schema=public"
 ENV DEBUG=true
 ENV SESSION_SECRET_KEY="98fQTDh2uNSRVjrRxFn5V4WgPP99QawUkLHqoDdBFHBXQi3Z"
 
